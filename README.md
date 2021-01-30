@@ -1,6 +1,6 @@
 # Data Science Summer Intern assignment 2021 Sormunen Teemu
 
-![](wolt_demo_project_short.gif)
+![](imgs/wolt_demo_project_short.gif)
 
 # Project overview
 ## The problem
@@ -13,23 +13,23 @@ This project provides small proof-of-concept for monitoring the amount of orders
 
 User is able to choose the interval between which to investigate the heatmap distribution via small interface as seen below.
 
-![](user_panel.png)
+![](imgs/user_panel.png)
 
 
 Single companies shouldn't be identifiable from this map due to data privancy conserns. The heatmap can be made more general by increasing the pointsize, making the individual datapoints to vanish as can be seen below
 
-![](vanished_datapoints.png)
+![](imgs/vanished_datapoints.png)
 
 
 The tool also allows user to get broader overview of the data, by choosing to start animation. Before starting the animation, user configure the animation parameters. In these parameters *step_size* defines how many samples do we want to jump forward after each iteration, and *sliding_window_size* defines how large portion of the data we want to visualized during each iteration. These parameters can also be seen below.
 
-![](parameter_selection.png)
+![](imgs/parameter_selection.png)
 
 
 
 Here's one more example of interacting with the user interface.
 
-![](wolt_demo_project_long.gif)
+![](imgs/wolt_demo_project_long.gif)
 
 
 ## Future work
