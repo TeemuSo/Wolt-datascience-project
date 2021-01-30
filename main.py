@@ -57,6 +57,7 @@ filtered_data = filter_data(data=order_data,
 # Filter data based on timestamp
 dummy_stamp = "2020-09-30 19:27:00.000"
 
+
 # Create bin data to clusters
 step = 0.001
 to_bin = lambda x: np.floor(x / step) * step
