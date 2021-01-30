@@ -36,3 +36,12 @@ Here's one more example of interacting with the user interface.
 
 This work can be extended to provide better predictive capabilities. Bayesian principles could be used to predict the amount of orders that are places for each company separately. This approach provides us with nicely interpretable probabilistic distributions for predicting the amount of orders placed. In the future Wolt-couriers might be able to have some kind of indication within the app where orders are most likely placed. 
 
+
+# Running the project
+
+To run the project you must create generate Google Map's Javascript API key. This key then has to be inserted either to file called *apikey.txt*, or then user can edit the wolt_data_analysis.ipynb and set the API key directly there.
+
+Dependencies can be installed with
+`pip install -r requirements.txt`
+
+Project must be run with Jupyter Notebook.
