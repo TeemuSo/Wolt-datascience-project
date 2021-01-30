@@ -31,6 +31,7 @@ Here's one more example of interacting with the user interface.
 
 ![](wolt_demo_project_long.gif)
 
+
 ## Future work
 
 This work can be extended to provide better predictive capabilities. Bayesian principles could be used to predict the amount of orders that are places for each company separately. This approach provides us with nicely interpretable probabilistic distributions for predicting the amount of orders placed. In the future Wolt-couriers might be able to have some kind of indication within the app where orders are most likely placed. 
